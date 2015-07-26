@@ -1,0 +1,21 @@
+# Site setup
+title:		Jesse Adametz
+url:		http://www.jesseadametz.com
+baseurl:	/
+tagline:	'Senior Data Engineer @FindTheBest'
+description:	'Passion for automation, productivity, elegant design, and craft beer.'
+
+# About me
+author:
+  name:		Jesse Adametz
+  handle:	'@jesseadametz'
+  url:		http://www.jesseadametz.com
+  github:	https://github.com/jadametz
+
+# Jekyll stuff
+markdown:	redcarpet
+highlighter:	pygments
+
+# redcarpet stuff
+redcarpet:
+  extension:	['smart', 'strikethrough', 'tables']
