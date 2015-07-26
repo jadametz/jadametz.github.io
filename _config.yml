@@ -1,1 +1,29 @@
-_config.yml.working
+# Setup
+title:               	Jesse Adametz
+tagline:             	'Data Engineer @FindTheBest'
+description:         	'Passionate about automation, productivity, elegant design, and craft beer.'
+url:                 	http://www.jesseadametz.com
+baseurl:             	''
+paginate:           	 5
+
+# About/contact
+author:
+  name:              	Jesse Adametz
+  url:               	https://twitter.com/jesseadametz
+  github:				https://github.com/jadametz
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:          	pretty
+relative_permalinks: 	true
+
+# Jekyll stuff
+markdown:				redcarpet
+highlighter:			pygment
+
+# redcarpet stuff
+redcarpet:
+  extensions:			['smart', 'strikethrough', 'tables']
+
+# Custom vars
+version:             	1.0.0
