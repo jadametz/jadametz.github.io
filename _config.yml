@@ -19,7 +19,7 @@ relative_permalinks: 	true
 
 # Jekyll stuff
 markdown:				redcarpet
-highlighter:			pygment
+highlighter:			pygments
 
 # redcarpet stuff
 redcarpet:
