@@ -433,6 +433,26 @@ a.pagination-item:hover {
           transform: translateX(-14rem);
 }
 
+/*
+ * Anchored sidebar
+ *
+ * Implementation courtesy of @donmccurdy -- https://github.com/donmccurdy
+ */
+ @media (min-width: 48em) {
+   .sidebar-anchored .sidebar-toggle {
+     display: none;
+   }
+   .sidebar-anchored .wrap {
+     width: calc(100% - 14rem);
+     margin-right: 14rem);
+   }
+   .sidebar-anchored .sidebar {
+     right: 0;
+     z-index: 10;
+     visibility: visible;
+   }
+ }
+
 
 /*
  * Themes

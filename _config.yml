@@ -1,11 +1,11 @@
 # Site Setup
 title:                Jesse Adametz
-tagline:              'Data Engineer @FindTheBest'
+tagline:              'Data Engineer in sunny Santa Barbara, CA.'
 description:          'Passionate about automation, productivity, elegant design, and craft beer.'
 
 
 # URL Setup
-url:                  http://www.jesseadametz.com
+url:                  https://jadametz.github.io
 baseurl:              /
 paginate:             2
 permalink:            pretty
