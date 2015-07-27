@@ -6,7 +6,7 @@ description:          'Passionate about automation, productivity, elegant design
 
 # URL Setup
 url:                  http://www.jesseadametz.com
-baseurl:              /
+baseurl:              ''
 paginate:             2
 permalink:            pretty
 relative_permalinks:  true
