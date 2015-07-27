@@ -1,4 +1,12 @@
+---
+title: 'FindTheBest: New Opportunity'
+tags:
+- career
+- findthebest
+---
+
 There are a few quotes that I've tried to live by in 2013.
+
 - _"Things can be better, so there is work to do. The world is not yet done."_ -Unknown / My desktop wallpaper. Daily motivation.
 - _"Be the change you want to see in the world."_ -Gandhi
 - _"Do what makes you come alive."_ -[Sean McCabe](https://twitter.com/seanwes/)

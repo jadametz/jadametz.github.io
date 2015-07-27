@@ -1,13 +1,19 @@
+---
+title: Twenty Six
+tags:
+- birthday
+---
+
 >“You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something – your gut, destiny, life, karma, whatever. Because believing that the dots will connect down the road will give you the confidence to follow your heart even when it leads you off the well worn path; and that will make all the difference.” -Steve Jobs
 
 #Connecting the dots looking backwards
 This is one of my favorite quotes pertaining to how things work out in life. Leading up to my twenty-sixth birthday, I've found my self reflecting on it a great deal. Connecting the dots looking backwards and having the confidence to lead my self off that well worn path, I've:
 
-- Attended and won my first [Startup Weekend](http://jesseadametz.com/blog/startupweekendorlando) competition in Orlando
+- Attended and won my first [Startup Weekend]({{ site.url }}/2012/11/15/startup-weekend-orlando) competition in Orlando
 - Proceeded to help launch [Fuelzee](http://www.fuelzee.com) and continuously get involved with the Startup community
 - Really learned how to successfully interview under multiple circumstances
 - Took the biggest risk of my life yet; trusted my gut
--- Landed a job at [FindTheBest](http://jesseadametz.com/blog/findthebest) in Santa Barbara, CA.
+-- Landed a job at [FindTheBest]({{ site.url }}/2013/08/21/findthebest-new-opportunity) in Santa Barbara, CA.
 -- Said goodbye to everyone and everything I knew in FL.
 -- Drove across the country with my Father, Zoey, and my entire life packed into a 14' U-Haul
 -- Met some of the most talented and ambitious people on the planet

@@ -1,3 +1,9 @@
+---
+title: Startup Weekend Orlando
+tags:
+- startup weekend
+---
+
 For anyone who doesn't know what Startup Weekend is, let's start there. "[Startup Weekends](http://startupweekend.org/about/) are 54-hour events where developers, designers, marketers, product managers and startup enthusiasts come together to share ideas, form teams, build products, and launch startups!"
 
 I stole that quote from their site because it really explains it much better than the one I've been giving: "So I did this thing this weekend, that went from Friday night to Sunday night where we took an idea and turned it in to a _real thing_." Although, that's exactly what it was. Of the 54 hours I counted I was there with my team working on this for 37 of them! And to be clear from the start, those 37 hours were a blast.

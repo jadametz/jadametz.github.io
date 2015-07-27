@@ -1,4 +1,10 @@
-October 12th…to most people it's likely just another day in October. Many people probably don't think much about it. Things like, what has happened on this day? Some may know it as an occasional holiday (Columbus day). Does it have significant meaning to some people more than others? Who's loved ones were lost on this day? And more importantly, who gained new ones? Well, that's exactly what happened in my family 25 years ago.
+---
+title: 25 Years in the Making
+tags:
+- birthday
+---
+
+October 12th...to most people it's likely just another day in October. Many people probably don't think much about it. Things like, what has happened on this day? Some may know it as an occasional holiday (Columbus day). Does it have significant meaning to some people more than others? Who's loved ones were lost on this day? And more importantly, who gained new ones? Well, that's exactly what happened in my family 25 years ago.
 
 ## October 12th, 1987:
 I was brought in to this world by my amazing parents, Debbie and Jody Adametz. Born in upstate New York to a typical Italian family full of aunts, uncles, cousins, and both sets of grandparents. Every family member is different now. Older and more experienced in many ways throughout life. Some living their dreams in big places, others raising families of their own in familiar ones, and still others who have stood by watching their children do incredible things. But 25 years later, I find it important to express the love I have for all of them and thank them for all being such large contributing factors in who I am today.
