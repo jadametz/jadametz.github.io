@@ -15,3 +15,9 @@ I currently specialize in data analysis & programming automation via SQL Server 
 
 ## The blog
 The blog on this site probably won't follow any specific trend or topic. Time has proven, it'll likely usually be out dated as well. For the foreseeable future I plan on using it to practice writing about topics and discussions (probably in the realm of technology) that interest me. I believe strongly that discussion in society is extremely important, so please feel free to join in on the conversation and share your opinions! :)
+
+## Contacting me
+
+- [Github](https://github.com/jadametz)
+- [Twitter](https://twitter.com/jesseadametz)
+- [LinkedIn](https://www.linkedin.com/in/jesseadametz)
