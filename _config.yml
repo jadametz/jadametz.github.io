@@ -5,7 +5,7 @@ description:          'Passionate about automation, productivity, elegant design
 
 
 # URL Setup
-url:                  https://jadametz.github.io
+url:                  http://www.jesseadametz.com
 baseurl:              /
 paginate:             2
 permalink:            pretty
