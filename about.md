@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hello. I'm Jesse; a 27 year old Data Engineer from <a href="https://places.findthehome.com/l/22876/Coral-Springs-FL">Coral Springs, FL.</a> currently living in <a href="https://places.findthehome.com/l/15057/Santa-Barbara-CA">Santa Barbara, CA.</a> and working at <a href="https://www.graphiq.com">Graphiq</a>!
+  Hello. I'm Jesse; a 28 year old Data Engineer from <a href="https://places.findthehome.com/l/22876/Coral-Springs-FL">Coral Springs, FL.</a> currently living in <a href="https://places.findthehome.com/l/15057/Santa-Barbara-CA">Santa Barbara, CA.</a> and working at <a href="https://www.graphiq.com">Graphiq</a>!
 </p>
 
 ## Me
