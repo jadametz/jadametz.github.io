@@ -1,2 +1,2 @@
 # jadametz.github.io
-My personal website, and stuff. https://www.jesseadametz.com
+My personal website. https://www.jesseadametz.com
