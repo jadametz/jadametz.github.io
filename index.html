@@ -1,37 +1,76 @@
----
-layout: default
-title: Home
----
+<!doctype html>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+	<title>Jesse Adametz</title>
+	<meta name="description" content="The personal website of Jesse Adametz, a DevOps / Data Engineer living in Santa Barbara, CA and working at Graphiq.">
+	<meta name="author" content="Jesse Adametz">
+	<meta name="Robots" content="INDEX,FOLLOW">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="favicon.ico">
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		function yearsSince(dateString) {
+	    var today = new Date();
+	    var eventDate = new Date(dateString);
+	    var years = today.getFullYear() - eventDate.getFullYear();
+	    var m = today.getMonth() - eventDate.getMonth();
+	    if (m < 0 || (m === 0 && today.getDate() < eventDate.getDate())) {
+	        years--;
+	    }
+	    return years;
+		}
+
+	</script>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header clearfix">
+      <nav>
+        <ul class="nav pull-right">
+          <li role="presentation"><a href="//www.jesseadametz.com/resume" target="_blank">Résumé</a></li>
+        </ul>
+      </nav>
+      <h3>Jesse Adametz</h3>
+    </div>
+
+		<div class="row content">
+			<div class="col-lg-8">
+				<p>
+					<strong>Hi!</strong><br>
+					I'm a <a href="https://www.jesseadametz.com/life" target="_blank"><script>document.write(yearsSince("1987/10/12"))</script> year old</a>
+					DevOps / Data Engineer from <a href="http://places.findthehome.com/l/22876/Coral-Springs-FL" target="_blank">Coral Springs, FL.</a>
+					currently living in <a href="http://places.findthehome.com/l/15057/Santa-Barbara-CA" target="_blank">Santa Barbara, CA.</a> and working
+					at <a href="https://www.graphiq.com" target="_blank">Graphiq</a>.
+				</p>
+			</div>
+			<div class="col-lg-4">
+				<p><strong>Other places online</strong></p>
+				<ul>
+					<li><i class="fa fa-facebook"></i>: <a href="https://www.facebook.com/jesseadametz" target="_blank">jesseadametz</a></li>
+					<li><i class="fa fa-github"></i>: <a href="https://github.com/jadametz" target="_blank">jadametz</a></li>
+					<li><i class="fa fa-instagram"></i>: <a href="https://www.instagram.com/jesseadametz/" target="_blank">jesseadametz</a></li>
+					<li><i class="fa fa-linkedin"></i>: <a href="https://www.linkedin.com/in/jesseadametz" target="_blank">/in/jesseadametz</a></li>
+					<li><i class="fa fa-medium"></i>: <a href="https://medium.com/@jesseadametz" target="_blank">@jesseadametz</a></li>
+					<li><i class="fa fa-twitter"></i>: <a href="https://twitter.com/jesseadametz" target="_blank">@jesseadametz</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> <!-- End container -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
