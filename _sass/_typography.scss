@@ -1,0 +1,98 @@
+// Typography styles
+body {
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: $line-height-heading;
+  font-weight: 600;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  color: $color-primary;
+}
+
+h1 {
+  font-size: $font-size-xlarge;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: $font-size-large;
+}
+
+h4, h5, h6 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: $spacing-md;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: darken($color-accent, 15%);
+  }
+
+  &:focus {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+code {
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+  background-color: $color-background-alt;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $color-background-alt;
+  padding: $spacing-md;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: $spacing-md;
+
+  code {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+blockquote {
+  border-left: 4px solid $color-border;
+  padding-left: $spacing-md;
+  margin-left: 0;
+  margin-bottom: $spacing-md;
+  color: $color-text-light;
+  font-style: italic;
+}
+
+ul, ol {
+  margin-bottom: $spacing-md;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-xs;
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jesseadametz.com)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "Bash(docker-compose build:*)",
+      "Bash(docker compose build:*)",
+      "Bash(docker compose:*)",
+      "Bash(ruby --version:*)",
+      "Bash(bundle:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

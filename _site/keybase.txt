@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jadametz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jesseadametz.com
+  * I am jadametz (https://keybase.io/jadametz) on keybase.
+  * I have a public key with fingerprint 482A A843 F377 4F7D D2DE  17D8 E3AB F314 E25D 085F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207e921f6be667b3133553cc83b9fda452dc4d335ab71f367ce3697edd2aa577fb0a",
+            "fingerprint": "482aa843f3774f7dd2de17d8e3abf314e25d085f",
+            "host": "keybase.io",
+            "key_id": "e3abf314e25d085f",
+            "kid": "0101bb6976a9be89ea02c753a1357cb9226084f7db05a153cab5312ba75f685186b80a",
+            "uid": "b198df0dacdd831d8bd6cd18312bfa19",
+            "username": "jadametz"
+        },
+        "service": {
+            "hostname": "jesseadametz.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488392126,
+    "expire_in": 157680000,
+    "prev": "e194073427770a123cbd8be0a5cf781fa4dbcc922a6efd29eb4ec6529577eb10",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMNvAnicbZJtUFRVGMcXgZIVhhchkJiGuZgELet92fuy6CgZlqaiMw1EBS3n3HPu
+srzcXXaXVcClZjKSERzGGMug2EpKWR39YLI6QEkOhpCjLhqjjDQoGSVOoDVaYZ3L
+yLful3vvc37///k/zzlno0J1+pCb/nvxE8WLLSFDZ9qrdYXd0X11FLSjGiq7jirH
+8y9cgbDLbSm3ISqbohmWFrGZZRQBYkEQIcdwHM9zsixx0KwgYOJZJJsQKQIoMgon
+iDLmBLOIEWIB4EVRgTSgDJRiU63Y6XDaVDexNUlkUTJxCieKJkUkLMKMiCTMAahw
+jAmzPKIlXiHCUrtLU5BwELiw0WYnNfJjmY/3P/xCbpqBkOQQgBliyYwBzcoizwGG
+40UZmllWoCVtZ0jzgCH9AMhzDAuByCuCxDOSAKX53NXzdpAxS0ihEZARkjgGSRAJ
+MmIkTaIAxqyBLuxUQSUmdBlA5MNdS3kNFKl6bDLWBqt1skBglws/poyyvZLoHU67
+2y7bK8hqqdvtcGVraneNQ8O3Y2h5bGSBNhWRWRKFBztdNrtKZTOElN02zZkxSRJH
+josVDBTe4bA5scWmEbwoSDR5tH2wR5scYzbRImdiRVGkAcNyMiRdYRrwsiJKjAJM
+CMoymRMQsIJYM4YmLAs8ayZHiiFDU1prVaqdeHMkJ7AST5fNqgJ3tRNT3v4zRWG6
+EL3uifBF2iXT6SNiFq5euDf6X3ul/9Ps3NAta3rLrxUs3jwyHoeyDPIzziXGMV/W
+TIXP+EtB5lDNZ++qr+YtckwO+Wqakwxbcfd0hv/sTri+4HBNc31OQ7qKPGOtEVXH
+iszikcyy65+sDubE1+kKV38znVK8pjct+CP98NSTgZZYb+CrWS834L86euhW9Z9N
+L6/a/wNq2Zg3dzzQ//flnKb64fd6+k/tHfpresW6mZTYwsqjOXcl/dxobqc1/kGg
+5ZpV4X6L+2j4qlE52NXrowueqp/sSV8e669S7nebOhi9GnxhvA1cmIh4+OGy2qTS
+osg7ngfd/MxWn/X07ZAu4ONibp2nZsPuN3Re+eDn5/xJh/MHNhmn1g4ZMmpH2i+2
+tTRn5e9aEbEyNaGvYN8/lQcS6qwnUjdEZWxyRxn6+SM5M9G7jz+faCupPrDywms3
+N86WBS3693ctS+0YC82LO3d3ZH/K5Nrepd4G1XAsoXlg0O7gr6TtuR3e9u3JLd78
+S4kTf8i/dtZXh3VsaFWXv26M7Bwbb7yXGRh81Pqs/OjtYLxne+Hm3rQXB8syj4YE
+h9N/v9HUob7ZnmyNvLMz96U3Bpaui96j+/jc5afPv2U1Rq7a5jGWF188ERgsoO2H
+IhJf6evJTD6dsI+Ku3T9p907Pj/5XVbVwS+za6nR8C++75rSNzakBbpuLNlp3Ja/
+vqSxZy6Gnir5Ohm+8x86e7yA
+=O4Dd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jadametz
+
+==================================================================

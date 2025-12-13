@@ -1,9 +1,15 @@
-version: '3'
 services:
-  website:
-    build: .
-    image: jadametz/website
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --force_polling --livereload --host 0.0.0.0
     ports:
-      - 8080:80
+      - "4000:4000"
+      - "35729:35729"
     volumes:
-      - ./:/usr/share/nginx/html/
+      - ./:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+
+volumes:
+  bundle_cache:

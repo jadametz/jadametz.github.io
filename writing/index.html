@@ -1,0 +1,26 @@
+---
+layout: default
+title: Writing
+---
+
+<h1>Writing</h1>
+
+<p>Thoughts on engineering leadership, platform development, and building great teams.</p>
+
+{% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-item">
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="empty-state">
+    <p>No posts yet. Check back soon for thoughts on engineering leadership, platform development, and building great teams.</p>
+  </div>
+{% endif %}

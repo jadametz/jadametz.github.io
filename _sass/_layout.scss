@@ -1,0 +1,151 @@
+// Layout styles
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-background;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-content {
+  flex: 1;
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: $spacing-xxl $spacing-md;
+  width: 100%;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-xl $spacing-sm;
+  }
+}
+
+// Header & Navigation
+.site-header {
+  padding: $spacing-md $spacing-md;
+  border-bottom: 1px solid $color-border;
+  background-color: $color-background;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-sm;
+  }
+}
+
+.site-nav {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: $spacing-md;
+
+  @media (max-width: $breakpoint-mobile) {
+    gap: $spacing-sm;
+  }
+
+  a {
+    color: $color-text;
+    text-decoration: none;
+    font-size: $font-size-small;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-accent;
+    }
+
+    &:focus {
+      outline: 2px solid $color-accent;
+      outline-offset: 2px;
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  margin-top: $spacing-xxl;
+  padding: $spacing-xl $spacing-md;
+  border-top: 1px solid $color-border;
+  text-align: center;
+  background-color: $color-background;
+}
+
+.footer-content {
+  max-width: $max-width-content;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  margin-bottom: $spacing-lg;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: $spacing-md;
+    flex-wrap: wrap;
+  }
+
+  a {
+    color: $color-text;
+    font-size: $font-size-small;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-md;
+  margin-bottom: $spacing-md;
+  flex-wrap: wrap;
+
+  a {
+    color: $color-accent;
+    font-size: $font-size-small;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($color-accent, 15%);
+    }
+  }
+}
+
+.copyright {
+  font-size: $font-size-xsmall;
+  color: $color-text-light;
+  margin: 0;
+}

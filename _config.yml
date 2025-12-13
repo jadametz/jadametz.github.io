@@ -1,0 +1,56 @@
+# Site settings
+title: Jesse Adametz
+description: >-
+  Director of Engineering at Twilio Segment. Engineering leader focused on
+  building resilient data infrastructure and high-performing teams.
+url: "https://www.jesseadametz.com"
+baseurl: ""
+
+# Author information
+author:
+  name: Jesse Adametz
+  email: jesse@jesseadametz.com
+  linkedin: jesseadametz
+  github: jadametz
+  twitter: jesseadametz
+  instagram: jesseadametz
+
+# Build settings
+markdown: kramdown
+permalink: /writing/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - Dockerfile
+  - CLAUDE.md
+  - README.md
+  - .git
+  - .gitignore
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /writing/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
