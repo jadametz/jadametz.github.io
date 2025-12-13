@@ -5,7 +5,7 @@ title: Contact
 
 I'd love to hear from you—whether you're interested in podcast appearances, speaking opportunities, technical feedback, coaching, or just want to say hello.
 
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form class="contact-form" action="https://formspree.io/f/mnnewwjr" method="POST">
   <label for="name">Name</label>
   <input type="text" id="name" name="name" required>
 
@@ -28,10 +28,3 @@ I'd love to hear from you—whether you're interested in podcast appearances, sp
     <li><a href="https://www.instagram.com/jesseadametz/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
   </ul>
 </div>
-
----
-
-**Note**: Before deploying, you'll need to:
-1. Sign up for a free account at [Formspree](https://formspree.io)
-2. Create a form and get your form ID
-3. Replace `YOUR_FORM_ID` in the form action above with your actual form ID
