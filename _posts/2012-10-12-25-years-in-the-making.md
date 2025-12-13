@@ -2,6 +2,7 @@
 title: 25 Years in the Making
 tags:
 - birthday
+published: false
 ---
 
 October 12th...to most people it's likely just another day in October. Many people probably don't think much about it. Things like, what has happened on this day? Some may know it as an occasional holiday (Columbus day). Does it have significant meaning to some people more than others? Who's loved ones were lost on this day? And more importantly, who gained new ones? Well, that's exactly what happened in my family 25 years ago.

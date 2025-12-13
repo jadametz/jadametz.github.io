@@ -1,5 +1,6 @@
 ---
 title: 'Problem & Solutions: A life model?'
+published: false
 ---
 
 Although pod-casts are relatively old news at this point, I've just recently started listening to them. The pod-casts I'm listening to all have a tech undertone but the hosts discuss all sorts of different topics ranging from BBQing to iOS development. One thing I've picked up on in their conversation is this idea of referring to everything in terms of a *problem* & *solution*.
