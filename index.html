@@ -1,64 +1,169 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Jesse Adametz</title>
-		<meta name="description" content="The personal website of Jesse Adametz, an Engineering Manager living in Orlando, FL and working at Segment.">
-		<meta name="author" content="Jesse Adametz">
-		<meta name="Robots" content="INDEX,FOLLOW">
-
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<title>Jesse Adametz — Platform Engineering Leader &amp; Advisor</title>
+		<meta name="description" content="Jesse Adametz is a platform engineering leader and advisor. He builds and scales engineering teams, advises leaders and organizations, and speaks at industry events." />
+		<meta name="author" content="Jesse Adametz" />
+		<meta name="robots" content="index,follow" />
+		<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)" />
+
+		<!-- Open Graph / Twitter — image URLs must be absolute to render in scrapers -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://jesseadametz.com/" />
+		<meta property="og:title" content="Jesse Adametz — Platform Engineering Leader &amp; Advisor" />
+		<meta property="og:description" content="Platform engineering leader &amp; advisor. I build and scale engineering teams, advise leaders, and speak at industry events." />
+		<meta property="og:image" content="https://jesseadametz.com/images/avatar.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Jesse Adametz — Platform Engineering Leader &amp; Advisor" />
+		<meta name="twitter:description" content="Platform engineering leader &amp; advisor. I build and scale engineering teams, advise leaders, and speak at industry events." />
+		<meta name="twitter:image" content="https://jesseadametz.com/images/avatar.jpg" />
+
+		<link rel="icon" href="favicon.ico" sizes="any" />
+		<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+		<link rel="canonical" href="https://jesseadametz.com/" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body class="is-loading">
+	<body>
+		<a class="skip-link" href="#about">Skip to content</a>
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+		<main class="page">
 
-			<!-- Main -->
-			<section id="main">
-				<header>
-					<span class="avatar"><img src="images/avatar.jpg" alt="avatar" width="320" height="240"/></span>
-					<h1>Jesse Adametz</h1>
-				</header>
+			<!-- Hero -->
+			<header class="hero" id="top">
+				<p class="eyebrow">Platform Engineering Leader &amp; Advisor</p>
+				<h1 class="hero__name">Jesse Adametz</h1>
+				<p class="hero__lead">
+					I build and scale platform engineering teams, and
+					<span class="accent">advise</span> the leaders and organizations growing them.
+				</p>
+				<nav class="hero__links" aria-label="Primary">
+					<a class="link" href="mailto:hello@jesseadametz.com">
+						<svg class="link__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm.4 2 8.6 6 8.6-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						Email
+					</a>
+					<a class="link" href="https://www.linkedin.com/in/jesseadametz" rel="me">
+						<svg class="link__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 9h3v12H3V9Zm6 0h2.9v1.6h.04c.4-.76 1.4-1.6 2.9-1.6 3.1 0 3.66 2 3.66 4.6V21H18v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9V9Z" fill="currentColor"/></svg>
+						LinkedIn
+					</a>
+					<a class="link" href="https://github.com/jadametz" rel="me">
+						<svg class="link__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" fill="currentColor"/></svg>
+						GitHub
+					</a>
+				</nav>
+			</header>
 
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/jadametz" class="fa-github">GitHub</a></li>
-						<li><a href="https://www.instagram.com/jesseadametz/" class="fa-instagram">Instagram</a></li>
-						<li><a href="https://www.linkedin.com/in/jesseadametz" class="fa-linkedin">LinkedIn</a></li>
-						<li><a href="https://twitter.com/jesseadametz" class="fa-twitter">Twitter</a></li>
-					</ul>
-				</footer>
+			<!-- About -->
+			<section class="section" id="about" aria-labelledby="about-heading">
+				<p class="eyebrow">About</p>
+				<h2 class="section__heading" id="about-heading">Platform engineering leadership, in practice</h2>
+				<div class="prose">
+					<p>
+						I've spent my career zigging and zagging through Software, Data, Reliability, and Platform Engineering. Over the past
+						<strong id="years-since">18</strong> years I've moved from writing software to building the
+						teams that write it — hiring, mentoring, and setting the technical
+						direction that lets good engineers do their best work.
+					</p>
+					<p>
+						Today I'm the <strong>Sr. Director of Platform Engineering</strong> at <strong>Twilio</strong>, where I
+						lead internal platform across Cloud Foundations, Developer Productivity, Reliability Engineering, and Observability. I care most about the
+						unglamorous parts of leadership: clear expectations, healthy feedback, and
+						shipping simple and elegant software that makes a difference.
+					</p>
+				</div>
+
+				<ol class="roles" aria-label="Recent roles">
+					<li class="role">
+						<span class="role__meta">2020 - Present</span>
+						<span class="role__body"><strong>Sr. Director of Platform Engineering</strong>, <strong>Twilio</strong></span>
+					</li>
+					<li class="role">
+						<span class="role__meta">2016 - 2020</span>
+						<span class="role__body"><strong>Sr. Engineering Manager - SRE</strong>, Invoca</span>
+					</li>
+					<li class="role">
+						<span class="role__meta">2013 - 2016</span>
+						<span class="role__body"><strong>Data Engineering</strong>, Graphiq (Acquired by Amazon)</span>
+					</li>
+				</ol>
 			</section>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="copyright">
-					<li>&copy; Jesse Adametz</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<!-- Speaking -->
+			<section class="section" id="speaking" aria-labelledby="speaking-heading">
+				<p class="eyebrow">Advising &amp; Speaking</p>
+				<h2 class="section__heading" id="speaking-heading">Working together</h2>
+				<div class="prose">
+					<p>
+						Beyond the day job, I advise engineering leaders and organizations on
+						internal tooling products, scaling platform teams, and building a culture
+						that lasts — and I bring the same topics to conferences, meetups, and
+						webinars. <strong>Available for advisory engagements and paid
+						speaking</strong>, plus podcast guest spots.
+					</p>
+				</div>
+
+				<p class="index__heading">Selected talks</p>
+				<ul class="index" aria-label="Past talks and webinars">
+					<li class="index__row">
+						<span class="index__meta">
+							<span class="index__date">2026</span>
+							<span class="index__venue">DX Annual</span>
+						</span>
+						<span class="index__title">
+							<a href="https://youtu.be/BcnqmcgScgM?si=XIWUbhCIPFPLlR11">AI and engineering productivity: Debating the headlines</a>
+						</span>
+					</li>
+					<li class="index__row">
+						<span class="index__meta">
+							<span class="index__date">2026</span>
+							<span class="index__venue">Engineering Enablement Podcast</span>
+						</span>
+						<span class="index__title">
+							<a href="https://youtu.be/yDp3U21X4zc?si=F3BvK-8m38vwf45_">Measuring AI impact, assessing readiness, and new data trends</a>
+						</span>
+					</li>
+					<li class="index__row">
+						<span class="index__meta">
+							<span class="index__date">2025</span>
+							<span class="index__venue">Engineering Enablement Podcast</span>
+						</span>
+						<span class="index__title">
+							<a href="https://youtu.be/arzNyxQ-NEE?si=bnY1czS6plH6wCh1">"Lessons from Twilio’s multi-year platform consolidation"</a>
+						</span>
+					</li>
 				</ul>
-			</footer>
 
-		</div>
+				<div class="cta">
+					<p class="cta__text">Looking for an advisor, or organizing an event?</p>
+					<a class="button" href="mailto:hello@jesseadametz.com?subject=Advising%20or%20speaking%20inquiry">
+						Get in touch
+						<svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</a>
+				</div>
+			</section>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+		</main>
 
+		<footer class="site-footer">
+			<ul class="site-footer__links">
+				<li><a href="mailto:hello@jesseadametz.com">Email</a></li>
+				<li><a href="https://www.linkedin.com/in/jesseadametz" rel="me">LinkedIn</a></li>
+				<li><a href="https://github.com/jadametz" rel="me">GitHub</a></li>
+			</ul>
+			<p class="site-footer__legal">&copy; <span id="year">2026</span> Jesse Adametz</p>
+		</footer>
+
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+			document.getElementById('years-since').textContent = new Date().getFullYear() - 2008;
+		</script>
 	</body>
 </html>
